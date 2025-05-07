@@ -1,5 +1,93 @@
----
-layout: default
----
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<html>
+<head>
+    <title>Jack's Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        .container {
+            display: flex;
+            align-items: center; /* Vertically center image and text */
+            gap: 130px; /* Space between image and text */
+            padding: 50px;
+            padding-left: 130px;
+        }
+
+        .profile-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 50px;
+        }
+
+        .profile-pic {
+            width: 400px;
+            border-radius: 200px;
+        }
+
+        .profile-links {
+            margin-top: 20px;
+            display: flex;
+            gap: 20px; /* space between the two links */
+            justify-content: center;
+        }
+
+        .profile-links a {
+            text-decoration: none;
+            color: #007acc;
+            font-weight: bold;
+        }
+
+        .intro-text {
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="profile-container">
+        <img class="profile-pic" src="Images/Screen Shot 2022-07-17 at 4.58.38 PM.png">
+        <div class="profile-links">
+            <a href="https://github.com/jyu4910" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://public.tableau.com/app/profile/jack.yu4214/vizzes" target="_blank">
+                <i class="fas fa-chart-bar"></i> Tableau Public
+            </a>
+            <a href="https://docs.google.com/document/d/1nsFRv5ELny02edjY-0tpKQBhmdO-crOt5hOzrMfKfy0/edit?usp=sharing" target="_blank">
+                <i class="fas fa-file-alt"></i> Resume
+            </a>
+        </div>        
+    </div>
+    <div class="intro-text">
+        <p>Hello World!</p>
+        <p>
+            My name is Jack, and I'm currently a Business Intelligence Analyst at Sutter Health, supporting the Internal Audit department.
+        </p>
+        <p>
+            During undergrad, I wasn't sure what I wanted to do for my career. My older sister suggested majoring in Data Science since it 
+            was a new major at UC Berkeley at the time. I figured, why not? So, I enrolled in an intro to Computer Science course since it 
+            was a prerequisite and the professor was known as one of the best professors at UC Berkeley. However, it was tough - I had no 
+            prior programming experience, and Berkeley's CS curriculum is famously rigorous. After a challenging first semester, I 
+            considered switching majors. But before doing so, I decided to take an intro to Data Science course - and I'm glad I did. I 
+            really enjoyed the analytics side of it, which ultimately convinced me to stick with the major. I went on to earn a BA in Data 
+            Science from UC Berkeley.
+        </p>
+        <p>
+            After graduation, I joined Businessolver as a Product Manager Intern on the Sofia team, which manages a chatbot that answers 
+            users' benefits questions. I wrote bug and enhancement tickets, conducted basic data analysis to identify areas for improvement,
+            and uploaded quarterly reports for clients. I was later offered a full-time role as an Associate Product Manager, where I took
+            on additional responsibilities like managing a shared inbox, collaborating with technical teams, testing new features, and writing
+            complex SQL queries to evaluate user engagement. Within a year, I was promoted to Product Manager Technical I.
+        </p>
+        <p>
+            While I enjoyed my time in product management, I found myself drawn back to data analysis. That led me to pursue analyst roles 
+            and eventually land my current position. I'm now also pursuing an MS in Analytics part-time at Georgia Tech to continue growing 
+            my skill set. Looking ahead, I'm especially interested in gaining hands-on experience in machine learning and analytics - so if 
+            you know of any opportunities, feel free to reach out at jyu663@gatech.edu! 
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
+
